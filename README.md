@@ -105,13 +105,11 @@ A research paper is included in `docs/research_paper.md` covering:
 - Experimental results and analysis
 - Discussion of limitations and future work
 
-## Technical Implementation
+## Implementation and Results
 
 The framework implements several neural network architectures including LSTM with attention mechanisms for sequential modeling, Transformer models with self-attention for long-range dependencies, and multi-scale attention models for temporal features at multiple scales. Ensemble methods are used to combine multiple models for improved robustness. The risk management system incorporates CVaR for tail risk management, Entropic Risk for exponential utility-based risk assessment, Spectral Risk with custom weighting functions, and Distortion Risk including Wang transform and other distortions. Training employs risk-sensitive optimization for direct optimization of risk measures, curriculum learning with progressive difficulty increase, data augmentation techniques specifically designed for financial time series, and regularization methods including dropout, weight decay, and position limits.
 
-## Performance
-
-The framework demonstrates significant improvements over traditional hedging methods, achieving a 60% reduction in transaction costs compared to delta hedging and a 40% improvement in tail risk management. The system shows robust performance across different market conditions and provides a scalable architecture suitable for real-world deployment.
+The framework demonstrates significant improvements over traditional hedging methods, achieving a 60% reduction in transaction costs compared to delta hedging and a 40% improvement in tail risk management. The system shows robust performance across different market conditions and provides a scalable architecture suitable for real-world deployment. Comprehensive evaluation includes advanced risk metrics, performance analysis, and comparison with traditional hedging strategies across multiple market models.
 
 ## Configuration
 
