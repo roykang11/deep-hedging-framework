@@ -8,12 +8,7 @@ This project implements and extends the deep hedging framework proposed in "Deep
 
 ## Key Features
 
-- **Advanced Neural Architectures**: LSTM, Transformer, and Attention-based models
-- **Sophisticated Risk Measures**: CVaR, Entropic Risk, Spectral Risk, and more
-- **Multiple Market Models**: GBM, Heston, Jump-Diffusion, Regime-Switching
-- **Robust Training**: Risk-sensitive optimization with curriculum learning
-- **Comprehensive Evaluation**: Advanced risk metrics and performance analysis
-- **Professional Documentation**: Research paper and detailed analysis
+This framework implements advanced neural network architectures including LSTM, Transformer, and Attention-based models for option hedging. It incorporates sophisticated risk measures such as CVaR, Entropic Risk, and Spectral Risk, and supports multiple market models including GBM, Heston, Jump-Diffusion, and Regime-Switching. The implementation features robust training with risk-sensitive optimization and curriculum learning, along with comprehensive evaluation using advanced risk metrics and performance analysis. The project includes professional documentation with a detailed research paper and technical analysis.
 
 ## Project Structure
 
@@ -110,34 +105,13 @@ A research paper is included in `docs/research_paper.md` covering:
 - Experimental results and analysis
 - Discussion of limitations and future work
 
-## Features
+## Technical Implementation
 
-### Neural Network Architectures
-- **LSTM with Attention**: Sequential modeling with attention mechanisms
-- **Transformer**: Self-attention for long-range dependencies
-- **Multi-Scale Attention**: Temporal features at multiple scales
-- **Ensemble Methods**: Combining multiple models for robustness
-
-### Risk Measures
-- **CVaR (Conditional Value at Risk)**: Tail risk management
-- **Entropic Risk**: Exponential utility-based risk
-- **Spectral Risk**: Custom risk weighting functions
-- **Distortion Risk**: Wang transform and other distortions
-
-### Training Algorithms
-- **Risk-Sensitive Optimization**: Direct optimization of risk measures
-- **Curriculum Learning**: Progressive difficulty increase
-- **Data Augmentation**: Techniques for financial time series
-- **Regularization**: Dropout, weight decay, and position limits
+The framework implements several neural network architectures including LSTM with attention mechanisms for sequential modeling, Transformer models with self-attention for long-range dependencies, and multi-scale attention models for temporal features at multiple scales. Ensemble methods are used to combine multiple models for improved robustness. The risk management system incorporates CVaR for tail risk management, Entropic Risk for exponential utility-based risk assessment, Spectral Risk with custom weighting functions, and Distortion Risk including Wang transform and other distortions. Training employs risk-sensitive optimization for direct optimization of risk measures, curriculum learning with progressive difficulty increase, data augmentation techniques specifically designed for financial time series, and regularization methods including dropout, weight decay, and position limits.
 
 ## Performance
 
-The framework demonstrates significant improvements over traditional hedging methods:
-
-- **60% reduction** in transaction costs vs. delta hedging
-- **40% improvement** in tail risk management
-- **Robust performance** across different market conditions
-- **Scalable architecture** for real-world deployment
+The framework demonstrates significant improvements over traditional hedging methods, achieving a 60% reduction in transaction costs compared to delta hedging and a 40% improvement in tail risk management. The system shows robust performance across different market conditions and provides a scalable architecture suitable for real-world deployment.
 
 ## Configuration
 
