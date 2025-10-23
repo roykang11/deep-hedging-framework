@@ -80,15 +80,6 @@ jupyter notebook notebooks/00_sanity.ipynb
 ```
 
 
-## Research Paper
-
-A research paper is included in `docs/research_paper.md` covering:
-
-- Mathematical foundation and setup
-- Model architectures and training algorithms
-- Risk measures and optimization objectives
-- Experimental results and analysis
-- Discussion of limitations and future work
 
 ## Implementation and Results
 
