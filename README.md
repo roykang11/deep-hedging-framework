@@ -1,10 +1,10 @@
 # Deep Hedging Framework
 
-A comprehensive implementation of the deep hedging methodology from Buehler et al. (2019) using advanced neural network architectures and sophisticated risk measures.
+An implementation of the deep hedging methodology from Buehler et al. (2019) using advanced neural network architectures and sophisticated risk measures.
 
 ## Overview
 
-This project implements and extends the deep hedging framework proposed in "Deep hedging" by Buehler, H., et al. (Quantitative Finance 19.8, 2019). The implementation includes LSTM, Transformer, and Attention-based neural networks with advanced risk measures, robust training algorithms, and comprehensive evaluation metrics for financial option hedging.
+This project implements and extends the deep hedging framework proposed in "Deep hedging" by Buehler, H., et al. (Quantitative Finance 19.8, 2019). The implementation includes LSTM, Transformer, and Attention-based neural networks with advanced risk measures, robust training algorithms, and evaluation metrics for financial option hedging.
 
 ## Key Features
 
@@ -109,15 +109,6 @@ A research paper is included in `docs/research_paper.md` covering:
 - Risk measures and optimization objectives
 - Experimental results and analysis
 - Discussion of limitations and future work
-
-## Connection to Buehler et al. (2019)
-
-This project implements the deep hedging methodology from the seminal paper "Deep hedging" by Buehler, H., et al. (Quantitative Finance 19.8, 2019). The original paper introduced the concept of using neural networks for option hedging with risk-sensitive objectives. This implementation extends their work by:
-
-- Implementing additional neural architectures (LSTM, Transformer, Attention)
-- Adding more sophisticated risk measures (Spectral Risk, Distortion Risk)
-- Including multiple market models (Heston, Jump-Diffusion, Regime-Switching)
-- Providing comprehensive evaluation and comparison with traditional methods
 
 ## Features
 
