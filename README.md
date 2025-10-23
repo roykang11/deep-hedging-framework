@@ -2,11 +2,11 @@
 
 A comprehensive deep learning framework for option hedging using advanced neural network architectures and sophisticated risk measures.
 
-## 🚀 Overview
+## Overview
 
 This project implements state-of-the-art deep hedging strategies using LSTM, Transformer, and Attention-based neural networks. The framework includes advanced risk measures, robust training algorithms, and comprehensive evaluation metrics for financial option hedging.
 
-## ✨ Key Features
+## Key Features
 
 - **Advanced Neural Architectures**: LSTM, Transformer, and Attention-based models
 - **Sophisticated Risk Measures**: CVaR, Entropic Risk, Spectral Risk, and more
@@ -15,7 +15,7 @@ This project implements state-of-the-art deep hedging strategies using LSTM, Tra
 - **Comprehensive Evaluation**: Advanced risk metrics and performance analysis
 - **Professional Documentation**: Research paper and detailed analysis
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 deep_hedging_framework/
@@ -49,7 +49,7 @@ deep_hedging_framework/
 └── README.md                     # This file
 ```
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository**:
    ```bash
@@ -67,7 +67,7 @@ deep_hedging_framework/
    python -c "import torch; print('PyTorch version:', torch.__version__)"
    ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Basic Experiment
 ```bash
@@ -84,7 +84,7 @@ python experiments/comprehensive_study.py
 jupyter notebook notebooks/00_sanity.ipynb
 ```
 
-## 📊 Results
+## Results
 
 The framework generates comprehensive results including:
 
@@ -100,7 +100,7 @@ The framework generates comprehensive results including:
 - **Attention Models**: Excellent for multi-scale temporal features
 - **Risk-Sensitive Training**: Significantly improves tail risk management
 
-## 🔬 Research Paper
+## Research Paper
 
 A comprehensive 6-10 page research paper is included in `docs/research_paper.md` covering:
 
@@ -111,7 +111,7 @@ A comprehensive 6-10 page research paper is included in `docs/research_paper.md`
 - Ablation studies and robustness testing
 - Discussion of limitations and future work
 
-## 🧪 Advanced Features
+## Advanced Features
 
 ### Neural Network Architectures
 - **LSTM with Attention**: Sequential modeling with attention mechanisms
@@ -131,7 +131,7 @@ A comprehensive 6-10 page research paper is included in `docs/research_paper.md`
 - **Data Augmentation**: Advanced techniques for financial time series
 - **Regularization**: Dropout, weight decay, and position limits
 
-## 📈 Performance
+## Performance
 
 The framework demonstrates significant improvements over traditional hedging methods:
 
@@ -140,7 +140,7 @@ The framework demonstrates significant improvements over traditional hedging met
 - **Robust performance** across different market conditions
 - **Scalable architecture** for real-world deployment
 
-## 🔧 Configuration
+## Configuration
 
 Models can be configured through YAML files in the `configs/` directory:
 
@@ -164,21 +164,21 @@ risk:
   lambda_risk: 10.0
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 📚 References
+## References
 
 - Buehler, H., et al. "Deep hedging." Quantitative Finance 19.8 (2019): 1271-1291.
 - Föllmer, H., & Schied, A. "Stochastic finance: an introduction in discrete time." Walter de Gruyter, 2011.
 - Rockafellar, R. T., & Uryasev, S. "Optimization of conditional value-at-risk." Journal of risk 2 (2000): 21-42.
 
-## 👨‍💻 Author
+## Author
 
 **Seojoon Kang**
 - GitHub: [@yourusername](https://github.com/yourusername)
@@ -187,4 +187,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-*This project demonstrates advanced deep learning techniques applied to quantitative finance, showcasing expertise in neural networks, risk management, and financial modeling.*
+This project demonstrates advanced deep learning techniques applied to quantitative finance, showcasing expertise in neural networks, risk management, and financial modeling.
