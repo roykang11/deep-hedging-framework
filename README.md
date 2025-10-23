@@ -1,10 +1,10 @@
 # Deep Hedging Framework
 
-A comprehensive deep learning framework for option hedging using advanced neural network architectures and sophisticated risk measures.
+A comprehensive implementation of the deep hedging methodology from Buehler et al. (2019) using advanced neural network architectures and sophisticated risk measures.
 
 ## Overview
 
-This project implements state-of-the-art deep hedging strategies using LSTM, Transformer, and Attention-based neural networks. The framework includes advanced risk measures, robust training algorithms, and comprehensive evaluation metrics for financial option hedging.
+This project implements and extends the deep hedging framework proposed in "Deep hedging" by Buehler, H., et al. (Quantitative Finance 19.8, 2019). The implementation includes LSTM, Transformer, and Attention-based neural networks with advanced risk measures, robust training algorithms, and comprehensive evaluation metrics for financial option hedging.
 
 ## Key Features
 
@@ -110,6 +110,15 @@ A research paper is included in `docs/research_paper.md` covering:
 - Experimental results and analysis
 - Discussion of limitations and future work
 
+## Connection to Buehler et al. (2019)
+
+This project implements the deep hedging methodology from the seminal paper "Deep hedging" by Buehler, H., et al. (Quantitative Finance 19.8, 2019). The original paper introduced the concept of using neural networks for option hedging with risk-sensitive objectives. This implementation extends their work by:
+
+- Implementing additional neural architectures (LSTM, Transformer, Attention)
+- Adding more sophisticated risk measures (Spectral Risk, Distortion Risk)
+- Including multiple market models (Heston, Jump-Diffusion, Regime-Switching)
+- Providing comprehensive evaluation and comparison with traditional methods
+
 ## Features
 
 ### Neural Network Architectures
@@ -173,7 +182,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## References
 
-- Buehler, H., et al. "Deep hedging." Quantitative Finance 19.8 (2019): 1271-1291.
+- **Buehler, H., et al. "Deep hedging." Quantitative Finance 19.8 (2019): 1271-1291.** (Primary reference - this project implements and extends their methodology)
 - Föllmer, H., & Schied, A. "Stochastic finance: an introduction in discrete time." Walter de Gruyter, 2011.
 - Rockafellar, R. T., & Uryasev, S. "Optimization of conditional value-at-risk." Journal of risk 2 (2000): 21-42.
 
