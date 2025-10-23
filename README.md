@@ -186,13 +186,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Föllmer, H., & Schied, A. "Stochastic finance: an introduction in discrete time." Walter de Gruyter, 2011.
 - Rockafellar, R. T., & Uryasev, S. "Optimization of conditional value-at-risk." Journal of risk 2 (2000): 21-42.
 
-## Author
-
-**Seojoon Kang**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Seojoon Kang](https://linkedin.com/in/seojoonkang)
-- Email: your.email@example.com
-
 ---
 
 This project demonstrates advanced deep learning techniques applied to quantitative finance, showcasing expertise in neural networks, risk management, and financial modeling.
