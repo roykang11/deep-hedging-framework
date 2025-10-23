@@ -1,0 +1,72 @@
+# GBM Model Configuration
+# Default parameters for Geometric Brownian Motion deep hedging experiment
+
+# Model parameters
+model:
+  type: "gbm"
+  S0: 100.0           # Initial stock price
+  K: 100.0            # Strike price (ATM)
+  T: 1.0              # Time to maturity (years)
+  r: 0.0              # Risk-free rate
+  mu: 0.0             # Drift
+  sigma: 0.2          # Volatility (20%)
+  
+# Simulation parameters
+simulation:
+  n_steps: 100        # Number of time steps
+  n_paths: 4096       # Batch size for training
+  n_test_paths: 10000 # Number of paths for testing
+  dt: 0.01           # Time step size (T/n_steps)
+  
+# Transaction costs
+costs:
+  kappa: 0.001        # Proportional transaction cost (10 bps)
+  kappa_quad: 0.0     # Quadratic transaction cost (optional)
+  
+# Risk parameters
+risk:
+  type: "cvar"        # Risk measure: "cvar" or "entropic"
+  alpha: 0.95         # CVaR confidence level
+  lambda_risk: 10.0   # Entropic risk aversion parameter
+  turnover_penalty: 1e-4  # Penalty on trading activity
+  
+# Neural network architecture
+network:
+  type: "mlp"
+  hidden_dims: [256, 256]
+  activation: "gelu"
+  use_layer_norm: true
+  dropout: 0.0
+  q_max: 1.5          # Maximum position size
+  
+# Training parameters
+training:
+  lr: 0.001           # Learning rate
+  weight_decay: 1e-6  # L2 regularization
+  epochs: 2000        # Number of training epochs
+  optimizer: "adam"
+  scheduler: "cosine"
+  lr_min: 0.0001      # Minimum learning rate
+  
+# State features
+state:
+  features: [
+    "time_normalized",    # t/T
+    "log_price",         # log(S_t)
+    "realized_vol",      # Rolling volatility
+    "moneyness",         # S_t/K
+    "time_to_maturity",  # (T-t)/T
+    "past_returns_1",    # 1-step return
+    "past_returns_5",    # 5-step return
+    "past_returns_10"    # 10-step return
+  ]
+  
+# Experiment tracking
+logging:
+  use_wandb: false
+  log_every: 100
+  save_every: 500
+  eval_every: 200
+  
+# Random seeds
+seed: 42
