@@ -102,16 +102,15 @@ The framework generates comprehensive results including:
 
 ## Research Paper
 
-A comprehensive 6-10 page research paper is included in `docs/research_paper.md` covering:
+A research paper is included in `docs/research_paper.md` covering:
 
 - Mathematical foundation and setup
 - Model architectures and training algorithms
 - Risk measures and optimization objectives
 - Experimental results and analysis
-- Ablation studies and robustness testing
 - Discussion of limitations and future work
 
-## Advanced Features
+## Features
 
 ### Neural Network Architectures
 - **LSTM with Attention**: Sequential modeling with attention mechanisms
@@ -128,7 +127,7 @@ A comprehensive 6-10 page research paper is included in `docs/research_paper.md`
 ### Training Algorithms
 - **Risk-Sensitive Optimization**: Direct optimization of risk measures
 - **Curriculum Learning**: Progressive difficulty increase
-- **Data Augmentation**: Advanced techniques for financial time series
+- **Data Augmentation**: Techniques for financial time series
 - **Regularization**: Dropout, weight decay, and position limits
 
 ## Performance
