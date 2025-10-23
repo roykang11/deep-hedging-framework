@@ -79,21 +79,6 @@ python experiments/comprehensive_study.py
 jupyter notebook notebooks/00_sanity.ipynb
 ```
 
-## Results
-
-The framework generates comprehensive results including:
-
-- **Performance Metrics**: Mean error, standard deviation, CVaR, VaR
-- **Risk Analysis**: Advanced risk measures and tail risk assessment
-- **Visualizations**: Professional plots and charts
-- **Model Comparison**: Side-by-side performance analysis
-
-### Key Findings
-
-- **LSTM Models**: Best for sequential pattern recognition
-- **Transformer Models**: Superior for long-range dependencies
-- **Attention Models**: Excellent for multi-scale temporal features
-- **Risk-Sensitive Training**: Significantly improves tail risk management
 
 ## Research Paper
 
@@ -109,7 +94,7 @@ A research paper is included in `docs/research_paper.md` covering:
 
 The framework implements several neural network architectures including LSTM with attention mechanisms for sequential modeling, Transformer models with self-attention for long-range dependencies, and multi-scale attention models for temporal features at multiple scales. Ensemble methods are used to combine multiple models for improved robustness. The risk management system incorporates CVaR for tail risk management, Entropic Risk for exponential utility-based risk assessment, Spectral Risk with custom weighting functions, and Distortion Risk including Wang transform and other distortions. Training employs risk-sensitive optimization for direct optimization of risk measures, curriculum learning with progressive difficulty increase, data augmentation techniques specifically designed for financial time series, and regularization methods including dropout, weight decay, and position limits.
 
-The framework demonstrates significant improvements over traditional hedging methods, achieving a 60% reduction in transaction costs compared to delta hedging and a 40% improvement in tail risk management. The system shows robust performance across different market conditions and provides a scalable architecture suitable for real-world deployment. Comprehensive evaluation includes advanced risk metrics, performance analysis, and comparison with traditional hedging strategies across multiple market models.
+The framework demonstrates significant improvements over traditional hedging methods, achieving a 60% reduction in transaction costs compared to delta hedging and a 40% improvement in tail risk management. The system shows robust performance across different market conditions and provides a scalable architecture suitable for real-world deployment. Comprehensive evaluation includes advanced risk metrics, performance analysis, and comparison with traditional hedging strategies across multiple market models. Key findings show that LSTM models excel at sequential pattern recognition, Transformer models provide superior performance for long-range dependencies, Attention models are excellent for multi-scale temporal features, and risk-sensitive training significantly improves tail risk management. The framework generates comprehensive results including performance metrics (mean error, standard deviation, CVaR, VaR), advanced risk analysis with tail risk assessment, professional visualizations and plots, and detailed model comparison with side-by-side performance analysis.
 
 ## Configuration
 
